@@ -36,6 +36,18 @@ testsets = [
           'nplusone_nfiles':10
         },
 
+        { 'nplusone_filesize': 10000,
+          'nplusone_nfiles':100
+        },
+
+        { 'nplusone_filesize': 1000000,
+          'nplusone_nfiles': 1
+        },
+
+        { 'nplusone_filesize': 100000,
+          'nplusone_nfiles': 10
+        },
+
 ]
 
 @add_worker
